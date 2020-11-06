@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+body {
+    background-image: url("https://i.pinimg.com/564x/0d/c0/67/0dc067a2bf9b02a5fa997fc3f9cc3c07.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-family: 'Lobster Two', Helvetica, sans-serif;
+    font-size: 2em;
+}
+@media only screen and (max-width: 500px){
+  .header{
+    text-align: center;
+}
+}
+
+#survey-form{
+    border-radius: 20px;
+    background: rgba(0, 0, 225, 0.5);
+    margin: 40px 320px;
+    font-size: 0.7em;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 1000;
+    box-shadow: 10px 10px;
+  }
+ @media (max-width: 500px){
+     .survey-form{
+         padding-left: 0%;
+     }
+ }
+input,select,button,textarea{
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0.5em;
+}
+#submit{
+    background-color: blue;
+}
+
+
+
+
+

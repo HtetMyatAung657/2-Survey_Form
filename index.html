@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header><h1 id="title">League of Legend Survey Form</h1>
+      <p id="description"><i> Thank you for taking the time to help us improve the platform</i></p>
+    </header>
+    <form id="survey-form">
+      <div>
+        <label for="name" id="name-label">Name</label><br>
+          <input type="name" required placeholder="Enter your Name" id="name" name="name" ></div>
+      <div>
+        <label for="email" id="email-label">Email</label><br>
+          <input type="email" required placeholder="Enter your Email" id="email" name="email"></div>
+      <div>
+        <label for="number" id="number-label">Age(optional)</label><br>
+          <input required type="number" placeholder="Age" id="number" name="age" min="13" max="120"></div>
+      <div>
+        <label for="role">Which role do you play mostly?</label><br>
+          <select name="role" id="dropdown">
+            <option disabled selected value>Select role</option>
+            <option value="ADC">ADC</option>
+            <option value="Mage">Mage</option>
+            <option value="Tank">Tank</option>
+            <option value="Assassin">Assassin</option>
+            <option value="Bruiser">Bruiser</option>
+            <option value="Support">Support</option>
+          </select>
+      </div>
+      <div>
+       <p>Which Champion do you play mostly?</p>
+        <label for="Champion"><input type="radio" id="Champion" name="Champion" checked value="Jax">Jax</label><br>
+        <label for="Champion"><input type="radio" id="Champion" name="Champion" value="Master Yi">Master Yi</label><br>
+        <label for="Champion"><input type="radio" id="Champion" name="Champion" value="Yauso">Yauso</label>
+      </div>
+      <div>
+        <p>What is Your favourite Summoner Spell?</p>
+        <label for="spell"><input type="checkbox" checked id="spell" name="spell" value="flash">flash</label><br>
+        <label for="spell"><input type="checkbox"  id="spell" name="spell" value="heals">heals</label><br>
+        <label for="spell"><input type="checkbox"  id="spell" name="spell" value="ignites">ignites</label><br>
+        <label for="spell"><input type="checkbox"  id="spell" name="spell" value="ghost">ghost</label><br>
+        <label for="spell"><input type="checkbox"  id="spell" name="spell" value="smite">smite</label><br>
+        <label for="spell"><input type="checkbox"  id="spell" name="spell" value="barrier">barrier</label><br>
+        <label for="spell"><input type="checkbox"  id="spell" name="spell" value="exhaust">exhaust</label>
+      </div>
+      <div>
+        <p>Any comments or suggestions?</p>
+          <textarea name="comment" id="comments" placeholder="Enter your comment here....." cols="30" rows="10"></textarea>
+      </div>
+      <button id="submit">Submit</button>
+    </form>
+  </main>
+</body>
+</html>
